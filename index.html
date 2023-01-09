@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" type="text/css" media="all">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+          <h3>Upload Files</h3>
+          <div class="drop_box">
+                <form action="/profile" method="post" enctype="multipart/form-data">
+                    <input id="a" type="file" name="file" value="Send"/>
+                    <p>Files Supported: PDF, TEXT, DOC , DOCX</p>
+                    <input type="file" hidden accept=".doc,.docx,.pdf" id="fileID" style="display:none;">
+                    <button class="btn">Upload</button>
+                </form>
+            </div>
+        </div>
+    </div>
+      
+</body>
+</html>
+
